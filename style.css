@@ -62,3 +62,17 @@ a{
   color: aliceblue;
   margin: 10px 0px;
 }
+
+.register-form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0px 10px 0px;
+}
+
+label{
+  font-size: 15px;
+  margin-bottom: -5px;
+  letter-spacing: 1.5px;
+}

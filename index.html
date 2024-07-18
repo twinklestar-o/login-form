@@ -24,14 +24,21 @@
       <input type="text" placeholder="Username" id="username" name="username" required>
       <input type="text" id="password" name="password" placeholder="Password" required>
       <a href="">Forgotten password?</a>
-      <input type="submit" value="Submit" class="submit">
+      <input type="submit" value="Login" class="submit">
+    </form>
+  </hr>
+    <form action="/register" method="POST" class="register-form">
+      <label>Not a member?</label>
+      <input type="submit" value="Register" class="submit">
     </form>
   </div>
+  <!--
   <script src="./index_alert.js">
     const message = window.location.search.slice(1).split('&').reduce((acc, pair) => ({ ...acc, [pair.split('=')[0]]: pair.split('=')[1] }), {});
     if (message.message) {
       window.alert(message.message);
     }
   </script>
+-->
 </body>
 </html>
